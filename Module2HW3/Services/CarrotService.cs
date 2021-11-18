@@ -7,7 +7,7 @@ namespace Module2HW3.Services
     {
         public CarrotService()
         {
-            Carrot = new Carrot("Carrot", 80, System.Drawing.Color.Orange);
+            Carrot = new Carrot("Carrot", 80, TypeGroundVegitables.RootVegetable, GrowthEnvironment.Soil, true);
         }
 
         public Carrot Carrot { get; set; }

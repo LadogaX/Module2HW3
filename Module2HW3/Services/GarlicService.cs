@@ -7,7 +7,7 @@ namespace Module2HW3.Services
     {
         public GarlicService()
         {
-            Garlic = new Garlic("Garlic", 56, System.Drawing.Color.White);
+            Garlic = new Garlic("Garlic", 56, GrowthEnvironment.Soil, TypePlantShoot.Arrows, true);
         }
 
         public Garlic Garlic { get; set; }

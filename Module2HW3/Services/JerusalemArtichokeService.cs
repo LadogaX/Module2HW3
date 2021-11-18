@@ -7,7 +7,7 @@ namespace Module2HW3.Services
     {
         public JerusalemArtichokeService()
         {
-            JerusalemArtichoke = new JerusalemArtichoke("Jerusalem Artichoke", 77, System.Drawing.Color.Brown);
+            JerusalemArtichoke = new JerusalemArtichoke("Jerusalem Artichoke", 77, TypeGroundVegitables.TuberVegetable, GrowthEnvironment.Soil, 225.59);
         }
 
         public JerusalemArtichoke JerusalemArtichoke { get; set; }

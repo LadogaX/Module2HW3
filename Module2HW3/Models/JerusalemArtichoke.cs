@@ -4,12 +4,12 @@ namespace Module2HW3.Models
 {
     public class JerusalemArtichoke : Tuber
     {
-        public JerusalemArtichoke(string name, int calories, Color color)
-            : base(name, calories)
+        public JerusalemArtichoke(string name, int calories, TypeGroundVegitables typeGroundVegitables, GrowthEnvironment growthEnvironment, double quontityVitaminC)
+            : base(name, calories, typeGroundVegitables, growthEnvironment)
         {
-            Color = color;
+            QuontityVitaminC = quontityVitaminC;
         }
 
-        public Color Color { get; set; }
+        public double QuontityVitaminC { get; set; }
     }
 }

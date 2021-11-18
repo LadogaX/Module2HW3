@@ -7,7 +7,7 @@ namespace Module2HW3.Services
     {
         public ParsleyService()
         {
-            Parsley = new Parsley("Parsly", 48, System.Drawing.Color.Brown);
+            Parsley = new Parsley("Parsly", 48, GrowthEnvironment.Air, TypePlantShoot.Leaves, CycleOfLife.Perennial);
         }
 
         public Parsley Parsley { get; set; }

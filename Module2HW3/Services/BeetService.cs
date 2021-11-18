@@ -7,7 +7,7 @@ namespace Module2HW3.Services
     {
         public BeetService()
         {
-            Beet = new Beet("Beet", 77, System.Drawing.Color.Red);
+            Beet = new Beet("Beet", 77, TypeGroundVegitables.RootVegetable, GrowthEnvironment.Soil, true);
         }
 
         public Beet Beet { get; set; }

@@ -7,7 +7,7 @@ namespace Module2HW3.Services
     {
         public PotatoService()
         {
-            Potato = new Potato("potato", 77, System.Drawing.Color.Brown);
+            Potato = new Potato("potato", 77, TypeGroundVegitables.TuberVegetable, GrowthEnvironment.Soil, 170.53);
         }
 
         public Potato Potato { get; set; }

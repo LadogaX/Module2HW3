@@ -8,10 +8,10 @@ namespace Module2HW3.Models
 {
     public abstract class VegetablesInGroung : Vegetables
     {
-        public VegetablesInGroung(string name, int calories)
+        public VegetablesInGroung(string name, int calories, GrowthEnvironment growthEnvironment)
             : base(name, calories)
         {
-            GrowthEnvironment = GrowthEnvironment.Air;
+            GrowthEnvironment = growthEnvironment;
         }
 
         public GrowthEnvironment GrowthEnvironment { get; set; }

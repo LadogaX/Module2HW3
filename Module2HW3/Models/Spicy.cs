@@ -7,9 +7,12 @@ namespace Module2HW3.Models
 {
     public abstract class Spicy : VegetablesAboveGround
     {
-        public Spicy(string name, int calories)
-            : base(name, calories)
+        public Spicy(string name, int calories, GrowthEnvironment growthEnvironment, TypePlantShoot typePlantShoot)
+            : base(name, calories, growthEnvironment)
         {
+            TypePlantShoot = typePlantShoot;
         }
+
+        public TypePlantShoot TypePlantShoot { get; set; }
     }
 }

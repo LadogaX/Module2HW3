@@ -7,7 +7,7 @@ namespace Module2HW3.Services
     {
         public OnienService()
         {
-            Onien = new Onien("Onien", 6, System.Drawing.Color.Brown);
+            Onien = new Onien("Onien", 6, GrowthEnvironment.Soil, TypePlantShoot.Arrows, true);
         }
 
         public Onien Onien { get; set; }

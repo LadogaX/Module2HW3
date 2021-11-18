@@ -8,10 +8,10 @@ namespace Module2HW3.Models
 {
     public abstract class Root : VegetablesInGroung
     {
-        public Root(string name, int calories)
-           : base(name, calories)
+        public Root(string name, int calories, TypeGroundVegitables typeGroundVegitables, GrowthEnvironment growthEnvironment)
+           : base(name, calories, growthEnvironment)
         {
-            TypeGroundVegitables = TypeGroundVegitables.RootVegetable;
+            TypeGroundVegitables = typeGroundVegitables;
         }
 
         public TypeGroundVegitables TypeGroundVegitables { get; set; }

@@ -4,12 +4,12 @@ namespace Module2HW3.Models
 {
     public class Parsley : Spicy
     {
-        public Parsley(string name, int calories, Color color)
-            : base(name, calories)
+        public Parsley(string name, int calories, GrowthEnvironment growthEnvironment, TypePlantShoot typePlantShoot, CycleOfLife cycleOfLife)
+            : base(name, calories, growthEnvironment, typePlantShoot)
         {
-            Color = color;
+            CycleOfLife = cycleOfLife;
         }
 
-        public Color Color { get; set; }
+        public CycleOfLife CycleOfLife { get; set; }
     }
 }

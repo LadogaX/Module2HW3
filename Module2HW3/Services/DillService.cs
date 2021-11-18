@@ -7,7 +7,7 @@ namespace Module2HW3.Services
     {
         public DillService()
         {
-            Dill = new Dill("Dill", 35, System.Drawing.Color.Green);
+            Dill = new Dill("Dill", 35, GrowthEnvironment.Air, TypePlantShoot.Leaves, CycleOfLife.Annual);
         }
 
         public Dill Dill { get; set; }

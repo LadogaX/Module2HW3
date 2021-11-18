@@ -4,12 +4,12 @@ namespace Module2HW3.Models
 {
     public class Onien : Onions
     {
-        public Onien(string name, int calories, Color color)
-            : base(name, calories)
+        public Onien(string name, int calories, GrowthEnvironment growthEnvironment, TypePlantShoot typePlantShoot, bool hightMineralSalt)
+            : base(name, calories, growthEnvironment, typePlantShoot)
         {
-            Color = color;
+            HightMineralSalt = hightMineralSalt;
         }
 
-        public Color Color { get; set; }
+        public bool HightMineralSalt { get; set; }
     }
 }

@@ -4,12 +4,12 @@ namespace Module2HW3.Models
 {
     public class Potato : Tuber
     {
-        public Potato(string name, int calories, Color color)
-            : base(name, calories)
+        public Potato(string name, int calories, TypeGroundVegitables typeGroundVegitables, GrowthEnvironment growthEnvironment, double quontitystarch)
+            : base(name, calories, typeGroundVegitables, growthEnvironment)
         {
-            Color = color;
+            QuontityStarch = quontitystarch;
         }
 
-        public Color Color { get; set; }
+        public double QuontityStarch { get; set; }
     }
 }

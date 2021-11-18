@@ -7,10 +7,10 @@ namespace Module2HW3.Models
 {
     public abstract class VegetablesAboveGround : Vegetables
     {
-        public VegetablesAboveGround(string name, int calories)
+        public VegetablesAboveGround(string name, int calories, GrowthEnvironment growthEnvironment)
             : base(name, calories)
         {
-                GrowthEnvironment = GrowthEnvironment.Soil;
+                GrowthEnvironment = growthEnvironment;
         }
 
         public GrowthEnvironment GrowthEnvironment { get; set; }
