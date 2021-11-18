@@ -53,22 +53,6 @@ namespace Module2HW3.Services
             Array.Sort(_dishContent, new DishElementsCaloriesComparer());
         }
 
-        public DishElement FindForName(string name)
-        {
-            DishElement foundElement = null;
-
-            for (var i = 0; i < _dishContent.Length; i++)
-            {
-                if (_dishContent[i] != null && (string.Compare(_dishContent[i].Product.Name, name.Trim(), true) == 0))
-                {
-                    foundElement = _dishContent[i];
-                    break;
-                }
-            }
-
-            return foundElement;
-        }
-
         public Dish GetDish()
         {
             return _dish;

@@ -1,6 +1,5 @@
 ﻿using System;
 using Module2HW3.Helpers;
-using Module2HW3.Models;
 using Module2HW3.Services;
 using Module2HW3.Services.Abstractions;
 
@@ -10,7 +9,7 @@ namespace Module2HW3
     {
         public void Run()
         {
-            IDishService dishService = new DishService("vegetable salad");
+            var dishService = new DishService("vegetable salad");
 
             dishService.Add(new PotatoService(), 0.2);
             dishService.Add(new GarlicService(), 0.002);
@@ -27,19 +26,10 @@ namespace Module2HW3
             dishService.SortCalories();
             DishHelper.Display(dishService.GetDish());
 
-            var dishelement = dishService.FindForName(" dIlL ");
+            var result = dishService.FindProductForName(" dIlL ");
+            Console.WriteLine(result.Message);
 
-            if (dishelement != null)
-            {
-                Console.WriteLine("Product Found");
-                DishHelper.DisplayDishElement(dishelement);
-            }
-            else
-            {
-                Console.WriteLine("Product not Found");
-            }
-
-            var summaryCalories = DishHelper.CalculateCalories(dishService.GetDish());
+            var summaryCalories = dishService.CalculateCalories();
             Console.WriteLine($"Summary calories: {summaryCalories}");
         }
     }

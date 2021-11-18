@@ -22,10 +22,15 @@ namespace Module2HW3.Helpers
 
         public static void DisplayDishElement(DishElement dishElement)
         {
-            Console.WriteLine($"Product: {dishElement.Product.Name.PadRight(25)} Calories {dishElement.Product.Calories,4} kkal Quontity {dishElement.Quontity,4}kg");
+            Console.WriteLine(GetStringDishElement(dishElement));
         }
 
-        public static double CalculateCalories(Dish dish)
+        public static string GetStringDishElement(DishElement dishElement)
+        {
+            return $"Product: {dishElement.Product.Name.PadRight(25)} Calories {dishElement.Product.Calories,4} kkal Quontity {dishElement.Quontity,4}kg";
+        }
+
+        public static double CalculateCalories_(Dish dish)
         {
             double summaryCalories = 0;
             for (var i = 0; i < dish.Products.Length; i++)

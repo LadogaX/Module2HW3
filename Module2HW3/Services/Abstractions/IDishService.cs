@@ -9,7 +9,6 @@ namespace Module2HW3.Services.Abstractions
 
         public void SortName();
         public void SortCalories();
-        public DishElement FindForName(string name);
 
         public Dish GetDish();
 
