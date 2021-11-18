@@ -1,8 +1,31 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net5.0</TargetFramework>
+		<CodeAnalysisRuleSet>../settings.ruleset</CodeAnalysisRuleSet>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<WarningsAsErrors />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Models\DataBase.cs" />
+		<Compile Remove="Services\BeetService.cs" />
+		<Compile Remove="Services\CarrotService.cs" />
+		<Compile Remove="Services\DillService.cs" />
+		<Compile Remove="Services\GarlicService.cs" />
+		<Compile Remove="Services\JerusalemArtichokeService.cs" />
+		<Compile Remove="Services\OnienService.cs" />
+		<Compile Remove="Services\ParsleyService.cs" />
+		<Compile Remove="Services\PotatoService.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
 
 </Project>
+

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Module2HW3.Models.Vegetables" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Vegetables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Potato">
+    <Position X="16.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Potato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.JerusalemArtichoke">
+    <Position X="14.25" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Models\JerusalemArtichoke.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Tuber">
+    <Position X="15.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Tuber.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.VegetablesInGroung">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\VegetablesInGroung.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.VegetablesAboveGround">
+    <Position X="5.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\VegetablesAboveGround.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Root">
+    <Position X="10.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Root.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Onien">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Onien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Parsley">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Parsley.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Spicy">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Spicy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Onions">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Onions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Beet">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Beet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Carrot">
+    <Position X="12" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Carrot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Dill">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Dill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Module2HW3.Models.Garlic">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Garlic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
