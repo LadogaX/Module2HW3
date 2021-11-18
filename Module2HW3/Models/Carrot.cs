@@ -4,12 +4,12 @@ namespace Module2HW3.Models
 {
     public class Carrot : Root
     {
-        public Carrot(string name, int calories, TypeGroundVegitables typeGroundVegitables, GrowthEnvironment growthEnvironment, bool isHighVitaminA)
+        public Carrot(string name, int calories, TypeGroundVegitables typeGroundVegitables, GrowthEnvironment growthEnvironment, bool сontainsСarotene)
             : base(name, calories, typeGroundVegitables, growthEnvironment)
         {
-            IsHighVitaminA = isHighVitaminA;
+            СontainsСarotene = сontainsСarotene;
         }
 
-        public bool IsHighVitaminA { get; set; }
+        public bool СontainsСarotene { get; set; }
     }
 }

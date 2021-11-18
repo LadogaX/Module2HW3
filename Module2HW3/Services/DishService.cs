@@ -33,7 +33,7 @@ namespace Module2HW3.Services
             {
                 if (_dishContent[i] == null)
                 {
-                    _dishContent[i] = new DishElement { Product = vegitable.GetProduct(), Quontity = quontity };
+                    _dishContent[i] = new DishElement { Product = vegitable.GetVegetable(), Quontity = quontity };
 
                     CountElementsDish++;
                     break;

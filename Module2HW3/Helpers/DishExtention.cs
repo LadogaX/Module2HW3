@@ -3,12 +3,12 @@ using Module2HW3.Services;
 
 namespace Module2HW3.Helpers
 {
-    public static class DishServiceExtention
+    public static class DishExtention
     {
-        public static Result FindProductForName(this DishService dishService, string name)
+        public static Result FindProductForName(this Dish dish, string name)
         {
             DishElement foundElement = null;
-            var dishContent = dishService.GetDish().Products;
+            var dishContent = dish.Products;
 
             for (var i = 0; i < dishContent.Length; i++)
             {

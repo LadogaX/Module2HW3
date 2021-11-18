@@ -4,14 +4,14 @@ namespace Module2HW3.Services.Abstractions
 {
     public interface IDishService
     {
-        public int CountElementsDish { get; set; }
-        public void Add(IVegetablesService vegitable, double quontity);
+        int CountElementsDish { get; set; }
+        void Add(IVegetablesService vegitable, double quontity);
 
-        public void SortName();
-        public void SortCalories();
+        void SortName();
+        void SortCalories();
 
-        public Dish GetDish();
+        Dish GetDish();
 
-        public void SetCapacity(int capacity);
+        void SetCapacity(int capacity);
     }
 }
